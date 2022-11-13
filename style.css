@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  padding: 0 2rem;
   height: 100vh;
   max-width: 1050px;
   width: 100%;
@@ -49,10 +50,11 @@ img {
 
 main {
   display: flex;
+  gap: 2rem;
   align-items: center;
   justify-content: space-between;
   height: calc(100vh - 72px);
-  background-color: #f2f2f250;
+  /* background-color: #f2f2f250; */
 }
 
 main h1 {
@@ -104,5 +106,14 @@ main h1 {
 .info {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
+
+.info p {
+  width: 500px;
+  font-size: 1.1rem;
+}
+
+/* .hero {
+  align-self: flex-start;
+} */
